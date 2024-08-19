@@ -61,8 +61,12 @@ npm start
     ```json
     {
       "nombre": "Nombre del Estudiante",
+       "apellido": "Apellido del estudiante"
       "email": "email@dominio.com",
-      "fecha_nacimiento": "YYYY-MM-DD"
+       "fecha de nacimiento" : "YYYY-MM-DD",
+       "direccion": "Sarmiento 53",
+       "telefono": "15615165161651"
+      
     }
     ```
   - **Respuesta:** Confirmación de la creación del estudiante.
@@ -101,8 +105,13 @@ npm start
     ```json
     {
       "nombre": "Nombre del Profesor",
-      "email": "email@dominio.com",
-      "departamento": "Nombre del Departamento"
+    "apellido": "Apellido del profesor",
+    "email": "email@dominio.com",
+    "fecha_nacimiento": "YYYY-MM-DD",
+    "direccion" : "Direccion del profesor", (donde vive)
+    "telefono" : "4234423141",
+    "especialidad: "Matematicas"
+   
     }
     ```
   - **Respuesta:** Confirmación de la creación del profesor.
