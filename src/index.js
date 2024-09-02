@@ -28,6 +28,6 @@ conexionDB().then(() => {
         console.log(`Servidor iniciado en el puerto ${port}`);
     });
 }).catch(error => {
-    console.error('No se pudo conectar a la base de datos:', error);
+    console.error('No se pudo conectar a la base de datos:', error.message);
     process.exit(1);  // Salir del proceso si no se puede conectar a la base de datos
 });
