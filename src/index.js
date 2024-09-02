@@ -1,9 +1,9 @@
 const express = require('express');
 require('dotenv').config();
-const conexionDB = require('./src/database/db');
-const estudiantesRouter = require('./src/routes/estudiantes.routes');
-const profesoresRouter = require('./src/routes/profesores.routes')
-const cursosRouter = require('./src/routes/cursos.routes')
+const conexionDB = require('./database/db');
+const estudiantesRouter = require('./routes/estudiantes.routes');
+const profesoresRouter = require('./routes/profesores.routes')
+const cursosRouter = require('./routes/cursos.routes')
 
 const app = express();
 const port = process.env.PORT || 3000;
