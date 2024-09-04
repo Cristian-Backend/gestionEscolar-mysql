@@ -1,6 +1,6 @@
 # Sistema de Gestión Escolar
 
-## Descripción
+##   Descripción del Bakcend
 
 El Sistema de Gestión Escolar es una aplicación web destinada a facilitar la administración de estudiantes, profesores y cursos en una institución educativa. Permite la realización de operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para cada entidad, con el objetivo de centralizar y optimizar la gestión académica.
 
