@@ -1,4 +1,5 @@
-require('dotenv').config({ path: '../.env' }); // Cargar las variables de entorno desde el archivo .env
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') }); // Cargar las variables de entorno desde el archivo .env
 
 const PORT = process.env.PORT || 3000;
 
