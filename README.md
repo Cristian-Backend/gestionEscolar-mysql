@@ -66,7 +66,7 @@ npm start
        "fecha de nacimiento" : "YYYY-MM-DD",
        "direccion": "Sarmiento 53",
        "telefono": "15615165161651"
-      
+      sd
     }
     ```
   - **Respuesta:** Confirmación de la creación del estudiante.
