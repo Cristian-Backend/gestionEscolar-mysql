@@ -10,6 +10,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
+mysql://root:zLYGgzpeTBGGbZEYweVeKNtwiGhBpAXu@autorack.proxy.rlwy.net:54444/railway
 // Rutas
 app.use('/api', estudiantesRouter);
 app.use('/api', profesoresRouter);
